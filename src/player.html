@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player_container">
+        <h1>My Music Player</h1>
+        
+        <div class="upload_section">
+            <input type="file" id="songInput" multiple accept="audio/*">
+            <button onclick="uploadSongs()">Add to Playlist</button>
+        </div>
+
+        <div class="now_playing">
+            <h2>Now Playing:</h2>
+            <p id="currentSongName">No song selected</p>
+        </div>
+
+        <div class="progress_section">
+            <input type="range" id="progressBar" value="0" min="0" max="100">
+            <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+        </div>
+
+        <div class="controls">
+            <button id="prevBtn" onclick="previousSong()">Previous</button>
+            <button id="playBtn" onclick="togglePlay()">Play</button>
+            <button id="nextBtn" onclick="nextSong()">Next</button>
+        </div>
+
+        <div class="playback_options">
+            <label>
+                <input type="checkbox" id="loopToggle"> Loop
+            </label>
+            <label>
+                <input type="checkbox" id="shuffleToggle"> Shuffle
+            </label>
+        </div>
+
+        <div class="playlist_section">
+            <h2>Playlist</h2>
+            <ul id="playlist"></ul>
+        </div>
+
+        <div class="back_link">
+            <a href="index.html">Back to Landing Page</a>
+        </div>
+    </div>
+
+    <script src="player.js"></script>
+</body>
+</html>
