@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhonoPlay - Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="landing_page">
+    <div class="parallax_bg"></div>
+    
+    <header class="landing_header">
+        <h1>PhonoPlay</h1>
+        <p class="tagline">Your Music, Your Way</p>
+    </header>
+
+    <main class="content">
+        
+        <section class="project_info">
+            <h2>What is this?</h2>
+            <p>A browser-based music player that allows users to upload and play songs locally with playlist support and advanced playback controls.</p>
+            
+            <h2>Why it was built</h2>
+            <p>This project was created as a learning exercise to understand web development basics including HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Upload songs from device</li>
+                <li>Playlist management</li>
+                <li>Shuffle playback</li>
+                <li>Loop mode</li>
+                <li>Progress tracking</li>
+                <li>All normal functionality of the music player</li>
+            </ul>
+        </section>
+
+        <section class="about_dev">
+            <h2>About the Developer</h2>
+            <p>Name: Uttkarsh Shrivastav</p>
+            <p>Learning web development</p>
+        </section>
+
+        <section class="learnings">
+            <h2>What I Learned</h2>
+            <ul>
+                <li>DOM manipulation</li>
+                <li>JavaScript Audio working</li>
+                <li>Event handling</li>
+                <li>Local storage usage</li>
+                <li>CSS and parallax effects</li>
+            </ul>
+        </section>
+
+        <div class="cta_section">
+            <button onclick="goToPlayer()" id="openPlayerBtn">Open Music Player</button>
+        </div>
+    </main>
+
+    <script>
+        function goToPlayer() {
+            console.log("Going to player page");
+            window.location.href = "player.html";
+        }
+
+        window.addEventListener('scroll', function() {
+            var scrolled = window.pageYOffset;
+            var parallaxBg = document.querySelector('.parallax_bg');
+            parallaxBg.style.transform = 'translateY(' + (scrolled * 0.5) + 'px)';
+        });
+    </script>
+</body>
+</html> 
