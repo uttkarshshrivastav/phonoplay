@@ -4,8 +4,8 @@
 
 ##  Demo
 
-**Coming soon** - Deployed on Vercel
-google drive link --> "https://drive.google.com/drive/folders/1crlPWTlPFesfcU4kLLmYoVSdoxhgIqmR?usp=sharing"
+-**Coming soon** - Deployed on Vercel
+-google drive link --> "https://drive.google.com/drive/folders/1crlPWTlPFesfcU4kLLmYoVSdoxhgIqmR?usp=sharing"
 
 ## Features
 
