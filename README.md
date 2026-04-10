@@ -4,7 +4,7 @@
 
 ##  Demo
 
--**Coming soon** - Deployed on Vercel
+-Deployed on Vercel -->https://phonoplay-git-main-uttkarshshrivastav34-4088s-projects.vercel.app/
 
 -google drive link --> "https://drive.google.com/drive/folders/1crlPWTlPFesfcU4kLLmYoVSdoxhgIqmR?usp=sharing"
 
