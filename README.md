@@ -1,7 +1,6 @@
 # PhonoPlay
  browser-based music player that allows users to upload and play local audio files with playlist support and advanced playback controls.
 
-![PhonoPlay](https://github.com/uttkarshshrivastav/phonoplay/blob/main/public/6929903b5daccdee6b47c23f65878dbb.jpg)
 
 ##  Demo
 
